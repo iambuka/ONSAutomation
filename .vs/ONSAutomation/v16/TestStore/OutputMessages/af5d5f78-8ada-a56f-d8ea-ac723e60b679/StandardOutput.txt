@@ -1,0 +1,80 @@
+-> Loading plugin C:\Users\o.gulua\source\repos\ONSAutomation\ONSAutomation\bin\Debug\net5.0\LivingDoc.SpecFlowPlugin.dll
+-> Loading plugin C:\Users\o.gulua\source\repos\ONSAutomation\ONSAutomation\bin\Debug\net5.0\TechTalk.SpecFlow.MSTest.SpecFlowPlugin.dll
+-> Loading plugin C:\Users\o.gulua\source\repos\ONSAutomation\ONSAutomation\bin\Debug\net5.0\ONSAutomation.dll
+-> Missing [assembly:RuntimePlugin] attribute in ONSAutomation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null. Please check https://go.specflow.org/doc-plugins for details.
+-> Using default config
+Given I am on the login page "https://ons-stag.spacenextdoor.com/login"
+-> done: LoginSteps.GivenIAmOnTheLoginPage("https://ons-stag....") (5.7s)
+And I click mail input field
+-> done: LoginSteps.GivenIClickMailInputField() (0.1s)
+And I enter mail
+-> done: LoginSteps.GivenIEnterMail() (0.1s)
+And I click sent otp button
+-> done: LoginSteps.GivenIClickSentOtpButton() (25.1s)
+And I Click Add building button
+-> done: BuildingsSteps.GivenIClickAddBuildingButton() (0.1s)
+And I Insert Building name in Building name field
+-> done: BuildingsSteps.GivenIInsertBuildingNameInBuildingNameField() (0.6s)
+And I Insert Contact name in Contact name field
+-> done: BuildingsSteps.GivenIInsertContactNameInContactNameField() (0.1s)
+And I Insert Contact number in Contact Number field
+-> done: BuildingsSteps.GivenIInsertContactNumberInContactNumberField() (0.1s)
+And I Insert Street Adress in Street Adress field
+-> done: BuildingsSteps.GivenIInsertStreetAdressInStreetAdressField() (0.1s)
+And I Insert Zip Code in Zip Code field
+-> done: BuildingsSteps.GivenIInsertZipCodeInZipCodeField() (0.1s)
+And I Select City from City drop down list "Singapore"
+-> done: BuildingsSteps.GivenISelectCityFromCityDropDownList("Singapore") (1.1s)
+And I Select Country from Country drop down list "Singapore"
+-> done: BuildingsSteps.GivenISelectCountryFromCountryDropDownList("Singapore") (0.1s)
+And I Select Status from Listing Status drop down list "Active"
+-> done: BuildingsSteps.GivenISelectStatusFromListingStatusDropDownList("Active") (0.1s)
+And I Insert Floorname
+-> done: BuildingsSteps.GivenIInsertFloorname() (0.1s)
+And I insert Floor Level
+-> done: BuildingsSteps.GivenIInsertFloorLevel() (0.1s)
+And I Click Save Button
+-> done: BuildingsSteps.GivenIClickSaveButton() (0.1s)
+When I validate current url is changed to "https://ons-stag.spacenextdoor.com/buildings/new-building"
+-> done: BuildingsSteps.WhenIValidateCurrentUrlIsChangedTo("https://ons-stag....") (0.0s)
+Then I validate building Building name is added
+-> done: BuildingsSteps.ThenIValidateBuildingBuildingNameIsAdded() (0.7s)
+
+
+TestContext Messages:
+Given I am on the login page "https://ons-stag.spacenextdoor.com/login"
+-> done: LoginSteps.GivenIAmOnTheLoginPage("https://ons-stag....") (5.7s)
+And I click mail input field
+-> done: LoginSteps.GivenIClickMailInputField() (0.1s)
+And I enter mail
+-> done: LoginSteps.GivenIEnterMail() (0.1s)
+And I click sent otp button
+-> done: LoginSteps.GivenIClickSentOtpButton() (25.1s)
+And I Click Add building button
+-> done: BuildingsSteps.GivenIClickAddBuildingButton() (0.1s)
+And I Insert Building name in Building name field
+-> done: BuildingsSteps.GivenIInsertBuildingNameInBuildingNameField() (0.6s)
+And I Insert Contact name in Contact name field
+-> done: BuildingsSteps.GivenIInsertContactNameInContactNameField() (0.1s)
+And I Insert Contact number in Contact Number field
+-> done: BuildingsSteps.GivenIInsertContactNumberInContactNumberField() (0.1s)
+And I Insert Street Adress in Street Adress field
+-> done: BuildingsSteps.GivenIInsertStreetAdressInStreetAdressField() (0.1s)
+And I Insert Zip Code in Zip Code field
+-> done: BuildingsSteps.GivenIInsertZipCodeInZipCodeField() (0.1s)
+And I Select City from City drop down list "Singapore"
+-> done: BuildingsSteps.GivenISelectCityFromCityDropDownList("Singapore") (1.1s)
+And I Select Country from Country drop down list "Singapore"
+-> done: BuildingsSteps.GivenISelectCountryFromCountryDropDownList("Singapore") (0.1s)
+And I Select Status from Listing Status drop down list "Active"
+-> done: BuildingsSteps.GivenISelectStatusFromListingStatusDropDownList("Active") (0.1s)
+And I Insert Floorname
+-> done: BuildingsSteps.GivenIInsertFloorname() (0.1s)
+And I insert Floor Level
+-> done: BuildingsSteps.GivenIInsertFloorLevel() (0.1s)
+And I Click Save Button
+-> done: BuildingsSteps.GivenIClickSaveButton() (0.1s)
+When I validate current url is changed to "https://ons-stag.spacenextdoor.com/buildings/new-building"
+-> done: BuildingsSteps.WhenIValidateCurrentUrlIsChangedTo("https://ons-stag....") (0.0s)
+Then I validate building Building name is added
+-> done: BuildingsSteps.ThenIValidateBuildingBuildingNameIsAdded() (0.7s)
